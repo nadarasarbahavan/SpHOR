@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Experiment outputs — do not commit
+savedir/
+
+# Model weights and checkpoints
+*.pth
+*.pt
+*.pth.tar
+
+# TensorBoard logs
+events.out.tfevents.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
